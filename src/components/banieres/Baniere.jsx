@@ -4,7 +4,7 @@ import baniere2 from '../../images/carousel2.jpg'
 
 export default function Baniere() {
   return (
-    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" className="carousel slide " data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src={baniere1} className="d-block w-100 " height={500} alt="Baniere"/>  
