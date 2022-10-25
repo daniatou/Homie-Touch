@@ -1,0 +1,7 @@
+.nav ul li{
+    display: inline;
+    padding: 15px 20px;
+    opacity: .7;
+    font-size: 1.2em;
+}
+
