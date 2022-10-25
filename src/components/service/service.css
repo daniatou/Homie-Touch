@@ -1,0 +1,29 @@
+.service {
+    background-color: gainsboro;
+    padding: 40px;
+}
+
+
+.title span::before, .title span::after{
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: #006fb9;
+    border-radius: 10px;
+    position: relative;
+    top: -4px;
+    margin: 0 10px;
+}
+
+.title h2 {
+    font-size: 3em;
+    color: #1a2940;
+    text-transform: capitalize;
+}
+
+.service-item p{
+    font-size: 1.3em;
+    font-weight: 300;
+
+}
