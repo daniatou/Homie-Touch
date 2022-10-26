@@ -9,7 +9,7 @@ export default function OurServices() {
                 <h2 className='py-3'>
                     Our Services
                 </h2>
-                <a href="#"> MORE SERVICES →</a>
+                <a href="/"> MORE SERVICES →</a>
             </div>
 
             <div className="row mb-5">

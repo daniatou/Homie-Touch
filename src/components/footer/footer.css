@@ -1,0 +1,28 @@
+footer {
+    padding: 30px;
+    background-color: #1a2940;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+footer ul li {
+    padding: 5px 0;
+    opacity: .7;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    
+}
+
+@media only screen and (max-width: 768px){
+
+    .footer-item {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+}

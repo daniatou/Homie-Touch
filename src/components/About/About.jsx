@@ -17,11 +17,11 @@ export default function About() {
                     <h2 className='py-3'>
                         Running Short Of Time To Make Your Home Shine?
                     </h2>
-                    <p className='opacity-5 fs-4'>
+                    <p className='opacity-5 fs-5'>
                         We get it. Ease yourself while we give your home a sparkle effect!
                         At Homietouch, we send professional helpers your way to do the cleaning for you. Forget about dusting, washing, cooking and every other household work. Our helpers do it fast and flawless so that you can spend time on what you love.
                     </p>
-                    <p className='opacity-5 fs-4'>
+                    <p className='opacity-5 fs-5'>
                     At Homietouch, we send professional helpers your way to do the cleaning for you. Forget about dusting, washing, cooking and every other household work. Our helpers do it fast and flawless so that you can spend time on what 
                     </p>
                 </div>

@@ -6,6 +6,7 @@ import About from './About/About'
 import Service from './service/service'
 import OurServices from './OurServices/OurServices';
 import Contact from './contact/Contact';
+import Footer from './footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Service />
       <OurServices />
       <Contact />
+      <Footer />
     </div>
   );
 } 
