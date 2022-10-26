@@ -1,7 +1,40 @@
-.nav ul li{
+.mynav {
+    display: none;
+ }
+
+.mynav ul li {
     display: inline;
     padding: 15px 20px;
     opacity: .7;
     font-size: 1.2em;
 }
+.nav-toggle  {
+    width: 30px;
+    background-color: gainsboro;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
 
+.nav-toggle i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (min-width: 768px){
+    .mynav{
+        display: block;
+    }
+
+    .nav-toggle {
+        display: none;
+
+    }
+    
+}

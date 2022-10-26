@@ -10,7 +10,7 @@ export default function Baniere() {
       <img src={baniere1} className="d-block w-100 " height={500} alt="Baniere"/>  
     </div>
     <div className="carousel-item">
-      <img src={baniere2} className="d-block w-100" alt="Baniere"/>
+      <img src={baniere2} className="d-block w-100"  height={500} alt="Baniere"/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

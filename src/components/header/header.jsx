@@ -11,7 +11,7 @@ export default function Header() {
         <div className="logo">
         <img src={ logo}  alt='Logo' />
         </div>
-        <div className="nav">
+        <div className="mynav">
             <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -20,6 +20,12 @@ export default function Header() {
                 <li>Contact</li>
             </ul>
         </div>
+
+        <div className="nav-toggle">
+           <i class="bi bi-list"></i>
+        </div>
+
+
     </header>
     
   )
