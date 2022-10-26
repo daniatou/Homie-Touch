@@ -1,0 +1,79 @@
+.contact {
+    background-image: url(../../images/background.png);
+    margin: 30px 10px;
+}
+
+.contact-container {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(208, 207, 207);
+    padding: 30px 0;
+}
+
+.form {
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.form-img {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .form-img {
+        display: block;
+    }
+
+}
+
+form input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    background-color: #f7f9fc;
+    margin-bottom: 10px;
+
+}
+
+.refresh {
+    position: absolute;
+    right: 10px;
+    bottom: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #20c997;
+    color: white;
+    cursor: pointer;
+
+}
+
+.refresh i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width:600px) {}
+
+.Mymodal {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(179, 177, 177);
+    padding: 30px;
+    top: -80px;
+    right: 35px;
+    width: 80%;
+    display: none;
+}
+
+#close-btn {
+    cursor: pointer;
+    color: red;
+    right: 15px;
+    top: 10px;
+}
+
